@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo hi! I am your GAUDC program installation automator. This code is open-source as a GitHub Gist, and I am LG, it's author! Feel free to comment on any issues!
+echo Hi. I am your GAUDC program installation automator. This code is open-source as a GitHub Gist, and I am LG, it's author! Feel free to comment on any issues!
 
 echo Now, make sure you installed Git and NodeJS because you need to clone and build GAUDC. I will make a temporary directory and give you the path in the end!
 
