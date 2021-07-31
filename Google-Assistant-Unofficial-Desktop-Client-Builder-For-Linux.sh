@@ -17,4 +17,6 @@ echo Now, I will install and build the GAUDC files
 
 npm install && npm run dist
 
-echo Your GAUDC is built. Now, you can go to your $HOME directory, and afterwards, into GAUDC and finally, Google-Assistant-Unofficial-Desktop-Client directory, move to your `dist` directory, and, check the folders because I am a Linux noob.
+echo Your GAUDC is built. Now, you can go to your $HOME directory, and afterwards, into GAUDC and finally, Google-Assistant-Unofficial-Desktop-Client directory, move to your `dist` directory, and, check the folders because I am a Linux noob. && echo Path to GAUDC: && pwd
+
+PAUSE
