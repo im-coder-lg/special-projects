@@ -9,12 +9,12 @@ echo now, I am gonna make a tmp folder named gaudc
 
 cd && mkdir GAUDC && cd GAUDC
 
-echo Now, I will clone and install the files for you!
+echo Now, I will clone and install the files.
 
 git clone https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client.git && cd Google-Assistant-Unofficial-Desktop-Client
 
-echo Now, I will install and build the GAUDC files!
+echo Now, I will install and build the GAUDC files
 
 npm install && npm run dist
 
-echo Your GAUDC is built. Now, you can go to your $HOME directory, then into GAUDC and finally, Google-Assistant-Unofficial-Desktop-Client directory, move to your `dist` directory, and, check the folders because I am a Linux noob.
+echo Your GAUDC is built. Now, you can go to your $HOME directory, and afterwards, into GAUDC and finally, Google-Assistant-Unofficial-Desktop-Client directory, move to your `dist` directory, and, check the folders because I am a Linux noob.
