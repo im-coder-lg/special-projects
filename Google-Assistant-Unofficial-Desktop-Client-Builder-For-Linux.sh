@@ -1,10 +1,11 @@
 #!/bin/bash
+@ECHO OFF
 
 echo Hi. I am your GAUDC program installation automator. && echo This code is open-source as a GitHub Gist, and I am LG, the maker of the GAUDC builder via shell script. && echo Feel free to comment on any issues :)
 
 echo Now, make sure you installed Git and NodeJS because you need to clone and build GAUDC. I will make a temporary directory and give you the path at the end
 
-echo now, I am gonna make a tmp folder for gaudc named gaudc
+echo now, I am gonna make a tmp folder named gaudc
 
 cd && mkdir GAUDC && cd GAUDC
 
