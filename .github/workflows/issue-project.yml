@@ -1,11 +1,11 @@
-name: Issue comments and project triage adding
+name: Issue and Project
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  comment-and-project-adding:
+  comment:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -31,7 +31,7 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             github.projects.createCard({
-            column_id: 15396551, # make the project so that i add the column id here.
+            column_id: 15396551,
             content_id: context.payload.issue.id,
             content_type: "Issue"
             });
