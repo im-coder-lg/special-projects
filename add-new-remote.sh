@@ -6,6 +6,6 @@ read -p "Destination folder name:" ZZZ
 
 git remote add $gitremotename $gitremotelink
 git fetch gitremotename
-git merge -s ours --no-commit --allow-unrelated-histories gitremotename/master
-git read-tree --prefix=$ZZZ/ -u gitremotename/master
+git merge -s ours --no-commit --allow-unrelated-histories $gitremotename/master
+git read-tree --prefix=$ZZZ/ -u $gitremotename/master
 git commit -m "Imported this as a subtree."
