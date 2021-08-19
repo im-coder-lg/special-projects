@@ -41,4 +41,4 @@ We use GitHub issues to track public bugs. Report a bug by [_**opening a new iss
 People *love* thorough bug reports. It helps the maintainer pinpoint to the specific file _causing_ the bug.
 
 ## License
-By contributing, you agree that your contributions will be licensed under the MIT License.
+By contributing, you agree that your contributions will be licensed under the <kbd>MIT License</kbd>.
