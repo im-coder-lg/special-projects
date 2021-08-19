@@ -2,8 +2,8 @@
 
 Git remote branches:
 
-- GAUDC-Shell
-- GAUDC-Batch
+- GistGAUDCShell
+- GistGAUDCBatch
 
 # special-projects
 
