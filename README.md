@@ -4,6 +4,7 @@ Git remote branches:
 
 - GistGAUDCShell
 - GistGAUDCBatch
+- GAUDCPersonalResults
 
 # special-projects
 
