@@ -5,6 +5,7 @@ Git remote branches:
 - GistGAUDCShell
 - GistGAUDCBatch
 - GAUDCPersonalResults
+- install-nodejs
 
 # special-projects
 
